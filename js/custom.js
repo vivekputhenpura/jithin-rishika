@@ -135,8 +135,7 @@
 		$("#minutes").html("<div><h4>" + minutes + "</h4>" + "<h6>Min</h6></div>");
 		$("#seconds").html("<div><h4>" + seconds + "</h4>" + "<h6>Sec</h6></div>");
 	}
-	// setInterval(function() { makeTimer(); }, 1000);
-	makeTimer()
+	setInterval(function() { makeTimer(); }, 1000);
 
 
 	
