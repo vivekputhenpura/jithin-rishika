@@ -16,3 +16,25 @@
 #thankyou {
     color: #881228;
 }
+
+.rslides_nav {
+    position: absolute;
+    top: 30%;
+    z-index: 9;
+    background: white;
+    border-radius: 50%;
+    width: 38px;
+    text-align: center;
+    /* transform: translate(0, -278%); */
+    font-size: 20px;
+    font-weight: 600;
+    color: #737373;
+}
+
+.rslides_nav.next {
+    right: 0;
+}
+
+.rslides_nav.prev {
+    left: 0;
+}

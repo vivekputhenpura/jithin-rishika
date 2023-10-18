@@ -252,4 +252,55 @@
 	.detail-box-title {
 		margin-top: 26px;
 	}
+
+	.family-info {
+		padding: 12px;
+		/* left: 0;
+		right: 0;
+		width: 100%;
+		line-height: normal; */
+	}
+
+	.family-info h4 {
+		/* font-size: 15px; */
+		padding: 0;
+	}
+
+	/* .family-info small {
+		font-size: 9px;
+	} */
+
+	.event-img img {
+		max-height: 250px;
+	}
+
+	.serviceBox:after {
+		border-bottom-width: 78px;
+		border-left-width: 78px;
+	}
+
+	.serviceBox:before {
+		border-top-width: 78px;
+		border-right-width: 78px;
+	}
+
+	.serviceBox:after {
+		border-bottom-width: 78px;
+		border-left-width: 78px;
+	}
+
+	.serviceBox:hover:before {
+		border-top-width: 0px;
+		border-right-width: 0px;
+	}
+
+	.serviceBox:hover:after {
+		border-bottom-width: 0px;
+		border-left-width: 0px;
+	}
+
+	.location-title {
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
 }
