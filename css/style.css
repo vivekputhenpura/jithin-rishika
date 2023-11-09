@@ -616,6 +616,7 @@ button:focus {
 .about-main-info h2 span {
 	color: #881228;
 	text-decoration: underline;
+	padding: 0 12px;
 }
 
 .about-main-info {
@@ -1040,7 +1041,7 @@ button:focus {
 }
 
 .event-img {
-	margin-bottom: 15px;
+	margin-bottom: 12px;
 	overflow: hidden;
 }
 
@@ -1056,7 +1057,7 @@ button:focus {
 	transform: scale(1.5) rotate(-10deg);
 }
 
-.event-inner a {
+/* .event-inner a {
 	background: #881228;
 	color: #ffffff;
 	padding: 5px 10px;
@@ -1068,7 +1069,7 @@ button:focus {
 
 .event-inner a:hover {
 	background: #63c7bd;
-}
+} */
 
 /*------------------------------------------------------------------
     Contact
@@ -1190,4 +1191,9 @@ select.form-control:not([size]):not([multiple]) {
 #location {
 	padding: 70px 0px;
 	background: url(../images/ptn-bg.jpg);
+}
+
+.location-title {
+	color: #881228;
+	font-weight: 600;
 }

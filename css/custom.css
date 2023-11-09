@@ -38,3 +38,19 @@
 .rslides_nav.prev {
     left: 0;
 }
+
+.imoji {
+    width: 40px;
+}
+
+.fw-bold {
+    font-weight: 600;
+}
+
+.profile-icons {
+    width: 20px;
+}
+
+.profile-list li {
+    padding-bottom: 4px;
+}

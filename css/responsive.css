@@ -127,7 +127,7 @@
 	}
 
 	.about-main-info h2 {
-		font-size: 24px;
+		font-size: 32px;
 	}
 
 	.about-img {
@@ -300,7 +300,11 @@
 	}
 
 	.location-title {
-		font-size: 20px;
-		padding-bottom: 20px;
+		font-size: 16px;
+		padding-bottom: 12px;
+	}
+
+	.names {
+		text-align: center;
 	}
 }
