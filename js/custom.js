@@ -5,12 +5,18 @@
 	Loader 
 	................................................. */
 
-	$(window).on('load', function () {
+	// $(window).on('load', function () {
+	// 	$('.preloader').fadeOut();
+	// 	// $('#preloader').delay(450).fadeOut('slow');
+	// 	$('#preloader').fadeOut('slow');
+	// 	// $('body').delay(350).css({ 'overflow': 'visible' });
+	// 	$('body').css({ 'overflow': 'visible' });
+	// });
+
+	$(function () {
 		$('.preloader').fadeOut();
-		// $('#preloader').delay(450).fadeOut('slow');
-		$('#preloader').fadeOut('slow');
-		// $('body').delay(350).css({ 'overflow': 'visible' });
-		$('body').css({ 'overflow': 'visible' });
+		$('#preloader').delay(450).fadeOut('slow');
+		$('body').delay(350).css({ 'overflow': 'visible' });
 	});
 
 	/* ..............................................
