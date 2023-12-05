@@ -9,7 +9,8 @@
 		$('.preloader').fadeOut();
 		// $('#preloader').delay(450).fadeOut('slow');
 		$('#preloader').fadeOut('slow');
-		$('body').delay(350).css({ 'overflow': 'visible' });
+		// $('body').delay(350).css({ 'overflow': 'visible' });
+		$('body').css({ 'overflow': 'visible' });
 	});
 
 	/* ..............................................
